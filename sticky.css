@@ -583,24 +583,27 @@ ion-icon:hover {
     padding: 1rem;
     text-align: center;
     color: #9afeff;
+    width: 100em;
   }
 
   header h1 {
     position: relative;
     font-family: "Ubuntu", sans-serif;
-    left: -5em;
+    left: -2em;
+    font-size: 3em;
   }
 
   header p {
     position: relative;
     font-family: "Lobster", cursive;
-    left: -10em;
+    left: -3em;
+    font-size: 2em;
   }
 
   .line {
     position: relative;
-    bottom: 185px;
-    width: 120%;
+    bottom: 27em;
+    width: 100%;
     background-color: #2c3539;
     height: 50px;
     right: 33px;
@@ -610,8 +613,7 @@ ion-icon:hover {
     white-space: nowrap;
     background: black;
     line-height: 3em;
-    /* background: white; */
-    /* background: grey; */
+
     font-family: "Ubuntu", sans-serif;
   }
 
@@ -630,7 +632,6 @@ ion-icon:hover {
   }
 
   nav ul h1 {
-    /* color: cyan; */
     font-size: 15px;
     color: #9afeff;
   }
@@ -638,7 +639,7 @@ ion-icon:hover {
   nav ul li a {
     display: block;
     padding: 0.5 rem 1rem;
-    /* color: cyan; */
+
     text-decoration: none;
     color: #9afeff;
   }
@@ -647,7 +648,6 @@ ion-icon:hover {
     background: #9afeff;
     color: black;
     font-size: 1.2em;
-    /* background: white; */
   }
 
   main {
@@ -670,6 +670,7 @@ ion-icon:hover {
 
   #projects {
     background-color: #b6b6b4;
+    height: 80em;
   }
 
   footer {
@@ -677,26 +678,28 @@ ion-icon:hover {
     background-color: #2c3539;
     padding: 3rem 1rem;
     color: #9afeff;
+    font-size: 2.5em;
   }
 
   .about {
-    left: 23em;
+    left: 10em;
     position: relative;
-    font-size: 2em;
+    font-size: 4.5em;
     border-bottom: 2px 2px black;
     /* font-family: "Lobster", cursive; */
     /* color: cyan; */
     font-family: "Ubuntu", sans-serif;
+    bottom: 70px;
   }
 
   .info-me {
     display: block;
-    left: 30em;
+    left: 11.5em;
     position: relative;
-    font-size: 20px;
-    width: 40%;
+    font-size: 2.3em;
+    width: 60%;
     text-align: center;
-    /* color: cyan; */
+    bottom: 110px;
   }
 
   .gmail {
@@ -731,19 +734,19 @@ ion-icon:hover {
 
   .placeholder {
     position: relative;
-    left: 8em;
-    bottom: 350px;
+    left: 3em;
+    bottom: 600px;
   }
 
   .placeholder-size {
-    width: 30%;
+    width: 20%;
   }
 
   .h-skills {
     position: relative;
-    font-size: 3em;
+    font-size: 5em;
     bottom: 40px;
-    left: 9em;
+    left: 7em;
     /* font-family: "Lobster", cursive; */
     /* color: cyan; */
     font-family: "Ubuntu", sans-serif;
@@ -753,72 +756,72 @@ ion-icon:hover {
   .h-python {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: -15em;
-    bottom: 0.3em;
+    font-size: 3em;
+    left: -11.5em;
+    bottom: 2em;
   }
 
   .python {
     position: relative;
-    left: 8.3em;
-    bottom: 0.2em;
+    left: 9.5em;
+    bottom: 7em;
   }
 
   .python-size {
-    width: 6.5%;
+    width: 6%;
   }
 
   /* HTML logo */
   .h-html {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: -8em;
-    bottom: 6.2em;
+    font-size: 3em;
+    left: -7em;
+    bottom: 6.83em;
   }
 
   .html {
     position: relative;
-    left: 17.4em;
-    bottom: 9.1em;
+    left: 20.5em;
+    bottom: 21.5em;
   }
 
   .html-size {
-    width: 11%;
+    width: 10%;
   }
 
   /* CSS logo */
   .h-css {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: -1.5em;
-    bottom: 12em;
+    font-size: 3em;
+    left: 3em;
+    bottom: 11.5em;
   }
 
   .css {
     position: relative;
-    left: 28.8em;
-    bottom: 18em;
+    left: 52.5em;
+    bottom: 36em;
   }
 
   .css-size {
-    width: 6%;
+    width: 5.5%;
   }
 
   /* Javascript logo */
   .h-javascript {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: 6em;
-    bottom: 18em;
+    font-size: 3em;
+    left: -1.8em;
+    bottom: 16.41em;
   }
 
   .javascript {
     position: relative;
-    left: 38em;
-    bottom: 27em;
+    left: 35em;
+    bottom: 50.5em;
   }
 
   .javascript-size {
@@ -829,82 +832,82 @@ ion-icon:hover {
   .h-java {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: 14em;
-    bottom: 24.1em;
+    font-size: 3em;
+    left: 7em;
+    bottom: 21.5em;
   }
 
   .java {
     position: relative;
-    left: 50em;
-    bottom: 37em;
+    left: 62.5em;
+    bottom: 67.5em;
   }
 
   .java-size {
-    width: 11%;
+    width: 10%;
   }
 
   /* Spring logo */
   .h-spring {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: -8em;
-    bottom: 25em;
+    font-size: 3em;
+    left: -7em;
+    bottom: 22em;
   }
 
   .spring {
     position: relative;
-    left: 18.5em;
-    bottom: 37.5em;
+    left: 21.5em;
+    bottom: 66em;
   }
 
   .spring-size {
-    width: 7.5%;
+    width: 8%;
   }
 
   /* SQL logo */
   .h-sql {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: -1.4em;
-    bottom: 30.5em;
+    font-size: 3em;
+    left: -1.9em;
+    bottom: 26.8em;
   }
 
   .sql {
     position: relative;
-    left: 29.2em;
-    bottom: 46em;
+    left: 38em;
+    bottom: 81em;
   }
 
   .sql-size {
-    width: 5%;
+    width: 5.5%;
   }
 
   /* Django logo */
   .h-django {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: 5.8em;
-    bottom: 36.4em;
+    font-size: 3em;
+    left: 3em;
+    bottom: 32em;
   }
 
   .django {
     position: relative;
-    left: 39.5em;
-    bottom: 55em;
+    left: 51em;
+    bottom: 97em;
   }
 
   .django-size {
-    width: 7%;
+    width: 8%;
   }
 
   .line2 {
     position: relative;
-    bottom: 44.5em;
-    width: 120%;
+    bottom: 95em;
+    width: 100%;
     background-color: #2c3539;
     height: 50px;
     right: 33px;
@@ -912,30 +915,30 @@ ion-icon:hover {
 
   .h-projects {
     position: relative;
-    font-size: 3em;
-    left: 9.2em;
-    /* font-family: "Lobster", cursive; */
+    font-size: 5em;
+    left: 6.3em;
     font-family: "Ubuntu", sans-serif;
+    bottom: 0.5em;
   }
 
   .square1 {
     position: relative;
-    height: 20em;
-    width: 30em;
+    height: 40em;
+    width: 60em;
     background-color: black;
-    left: 1em;
-    bottom: -7.4em;
+    left: 11em;
+    bottom: -1em;
     border-radius: 5%;
   }
 
   .visit {
     position: relative;
-    font-size: 1.5em;
+    font-size: 3em;
     color: white;
-    left: 4em;
-    bottom: -1em;
+    left: 6.3em;
+    bottom: 3.4em;
     background: grey;
-    width: 60px;
+    width: 120px;
     padding-left: 10px;
     border-style: groove;
     border-radius: 5%;
@@ -957,13 +960,13 @@ ion-icon:hover {
   .source {
     text-align: center;
     position: relative;
-    font-size: 1.5em;
+    font-size: 3em;
     color: white;
-    left: 3.6em;
-    bottom: 3.5em;
+    left: 5.7em;
+    bottom: 7.5em;
     background: grey;
-    width: 85px;
-    padding-left: 5px;
+    width: 175px;
+    padding-left: 10px;
     border-style: groove;
     border-radius: 5%;
   }
@@ -983,96 +986,96 @@ ion-icon:hover {
 
   .bowling {
     position: relative;
-    bottom: 19em;
-    left: 3.5em;
+    bottom: 49em;
+    left: 13em;
   }
 
   .bowling-size {
-    width: 15%;
+    width: 22%;
   }
 
   .charity {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: -11.5em;
-    bottom: 23.5em;
+    font-size: 3em;
+    left: -1.8em;
+    bottom: 27.4em;
     font-style: italic;
   }
 
   .description {
     position: relative;
-    font-size: 1.5em;
-    left: 10em;
-    bottom: 22em;
+    font-size: 3em;
+    left: 11.6em;
+    bottom: 25.5em;
     color: white;
   }
 
   .charity-info {
     position: relative;
-    font-size: 1.2em;
+    font-size: 2.8em;
     text-align: center;
     width: 14%;
     color: white;
     left: 11em;
-    bottom: 35em;
+    bottom: 34em;
   }
 
   .square2 {
     position: relative;
-    height: 20em;
-    width: 30em;
+    height: 40em;
+    width: 60em;
     background-color: black;
-    left: 35em;
-    bottom: 49.9em;
+    left: 11em;
+    bottom: 65em;
     border-radius: 5%;
   }
 
   .translator {
     position: relative;
     text-align: center;
-    font-size: 1.5em;
-    left: 11em;
-    bottom: 50.1em;
+    font-size: 3em;
+    left: -1.9em;
+    bottom: 38em;
     font-style: italic;
   }
 
   .translator-logo {
     position: relative;
-    bottom: 73em;
-    left: 38em;
+    bottom: 107em;
+    left: 14em;
   }
 
   .translator-logo-size {
-    width: 13%;
+    width: 20%;
   }
 
   .description2 {
     position: relative;
-    font-size: 1.5em;
-    left: 33em;
-    bottom: 56.2em;
+    font-size: 3em;
+    left: 11.6em;
+    bottom: 43.5em;
     color: white;
   }
 
   .translator-info {
     position: relative;
-    font-size: 1.2em;
+    font-size: 2.8em;
     text-align: center;
     width: 14%;
     color: white;
-    left: 46.4em;
-    bottom: 87.5em;
+    left: 11em;
+    bottom: 57.5em;
   }
 
   .visit2 {
     position: relative;
-    font-size: 1.5em;
+    font-size: 3em;
     color: white;
-    left: 26.7em;
-    bottom: 59em;
+    left: 6.3em;
+    bottom: 47.5em;
     background: grey;
-    width: 60px;
+    width: 120px;
     padding-left: 10px;
     border-style: groove;
     border-radius: 5%;
@@ -1098,8 +1101,9 @@ ion-icon:hover {
     width: 30em;
     background-color: black;
     left: 1em;
-    bottom: 75em;
+    bottom: 175em;
     border-radius: 5%;
+    visibility: hidden;
   }
 
   .empty1 {
@@ -1107,8 +1111,9 @@ ion-icon:hover {
     text-align: center;
     font-size: 1.5em;
     left: -11.5em;
-    bottom: 66.8em;
+    bottom: 100em;
     font-style: italic;
+    visibility: hidden;
   }
 
   .square4 {
@@ -1117,8 +1122,9 @@ ion-icon:hover {
     width: 30em;
     background-color: black;
     left: 35em;
-    bottom: 100em;
+    bottom: 200em;
     border-radius: 5%;
+    visibility: hidden;
   }
 
   .empty2 {
@@ -1126,7 +1132,8 @@ ion-icon:hover {
     text-align: center;
     font-size: 1.5em;
     left: 11em;
-    bottom: 83.5em;
+    bottom: 117em;
     font-style: italic;
+    visibility: hidden;
   }
 }
