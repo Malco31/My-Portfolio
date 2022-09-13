@@ -18,6 +18,7 @@ header {
   padding: 1rem;
   text-align: center;
   color: #9afeff;
+  width: 100%;
 }
 
 header h1 {
@@ -78,6 +79,7 @@ nav ul li a:hover {
   background: #9afeff;
   color: black;
   font-size: 1.2em;
+  border-radius: 5%;
   /* background: white; */
 }
 
@@ -563,10 +565,6 @@ footer {
 
 /* #IPHONE SE */
 @media screen and (min-width: 374px) and (max-width: 667px) {
-  html {
-    scroll-behavior: smooth;
-  }
-
   body {
     margin: 0;
     display: grid;
@@ -613,8 +611,8 @@ footer {
     white-space: nowrap;
     background: black;
     line-height: 3em;
-
     font-family: "Ubuntu", sans-serif;
+    display: none;
   }
 
   nav ul {
@@ -666,6 +664,7 @@ footer {
 
   #skills {
     background-color: white;
+    width: 90em;
   }
 
   #projects {
@@ -720,12 +719,12 @@ footer {
     color: white;
   }
 
-  ion-icon {
+  .social {
     color: #9afeff;
     font-size: 2.5em;
   }
 
-  ion-icon:hover {
+  .social:hover {
     color: white;
     font-size: 4em;
     /* background-color: #9afeff;
