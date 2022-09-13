@@ -31,7 +31,7 @@ header p {
 
 .line {
   position: relative;
-  bottom: 185px;
+  bottom: 165px;
   width: 120%;
   background-color: #2c3539;
   height: 50px;
@@ -62,7 +62,6 @@ nav ul {
 }
 
 nav ul h1 {
-  /* color: cyan; */
   font-size: 15px;
   color: #9afeff;
 }
@@ -70,7 +69,6 @@ nav ul h1 {
 nav ul li a {
   display: block;
   padding: 0.5 rem 1rem;
-  /* color: cyan; */
   text-decoration: none;
   color: #9afeff;
 }
@@ -80,7 +78,6 @@ nav ul li a:hover {
   color: black;
   font-size: 1.2em;
   border-radius: 5%;
-  /* background: white; */
 }
 
 main {
@@ -117,8 +114,6 @@ footer {
   position: relative;
   font-size: 2em;
   border-bottom: 2px 2px black;
-  /* font-family: "Lobster", cursive; */
-  /* color: cyan; */
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -129,7 +124,6 @@ footer {
   font-size: 20px;
   width: 40%;
   text-align: center;
-  /* color: cyan; */
 }
 
 .gmail {
@@ -158,8 +152,6 @@ footer {
 .social:hover {
   color: white;
   font-size: 4em;
-  /* background-color: #9afeff;
-  width: 80%; */
 }
 
 .placeholder {
@@ -177,8 +169,6 @@ footer {
   font-size: 3em;
   bottom: 40px;
   left: 9em;
-  /* font-family: "Lobster", cursive; */
-  /* color: cyan; */
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -193,7 +183,7 @@ footer {
 
 .python {
   position: relative;
-  left: 8.3em;
+  left: 8.8em;
   bottom: 0.2em;
 }
 
@@ -212,7 +202,7 @@ footer {
 
 .html {
   position: relative;
-  left: 17.4em;
+  left: 17.8em;
   bottom: 9.1em;
 }
 
@@ -225,13 +215,13 @@ footer {
   position: relative;
   text-align: center;
   font-size: 1.5em;
-  left: -1.5em;
+  left: -1.8em;
   bottom: 12em;
 }
 
 .css {
   position: relative;
-  left: 28.8em;
+  left: 28.9em;
   bottom: 18em;
 }
 
@@ -250,7 +240,7 @@ footer {
 
 .javascript {
   position: relative;
-  left: 38em;
+  left: 38.5em;
   bottom: 27em;
 }
 
@@ -263,7 +253,7 @@ footer {
   position: relative;
   text-align: center;
   font-size: 1.5em;
-  left: 14em;
+  left: 13.5em;
   bottom: 24.1em;
 }
 
@@ -288,7 +278,7 @@ footer {
 
 .spring {
   position: relative;
-  left: 18.5em;
+  left: 18.8em;
   bottom: 37.5em;
 }
 
@@ -301,7 +291,7 @@ footer {
   position: relative;
   text-align: center;
   font-size: 1.5em;
-  left: -1.4em;
+  left: -1.7em;
   bottom: 30.5em;
 }
 
@@ -326,7 +316,7 @@ footer {
 
 .django {
   position: relative;
-  left: 39.5em;
+  left: 40em;
   bottom: 55em;
 }
 
