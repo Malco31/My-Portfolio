@@ -32,7 +32,7 @@ header p {
 
 .line {
   position: absolute;
-  bottom: 0em;
+  bottom: -11em;
   width: 100%;
   background-color: #2c3539;
   height: 50px;
@@ -85,7 +85,6 @@ nav ul li a:hover {
 main {
   padding-bottom: 40rem;
   width: 100%;
-  height: 100%;
 }
 
 section {
@@ -172,8 +171,8 @@ footer {
 .h-skills {
   position: relative;
   font-size: 3em;
-  bottom: 40px;
-  left: 9em;
+  bottom: -7px;
+  left: 9.9em;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -181,132 +180,110 @@ footer {
 .h-python {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: -15em;
-  bottom: 0.3em;
+  font-size: 2em;
+  left: -12em;
+  bottom: -1.3em;
 }
 
 .python {
   position: relative;
-  left: 8.8em;
-  bottom: 0.2em;
-}
-
-.python-size {
-  width: 6.5%;
+  width: 8%;
+  left: 8.3em;
+  bottom: -2em;
 }
 
 /* HTML logo */
 .h-html {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: -8em;
-  bottom: 6.2em;
+  font-size: 2em;
+  left: -6em;
+  bottom: 4.5em;
 }
 
 .html {
   position: relative;
-  left: 17.8em;
-  bottom: 9.1em;
-}
-
-.html-size {
-  width: 11%;
+  width: 12.5%;
+  left: 18.6em;
+  bottom: 9.5em;
 }
 
 /* CSS logo */
 .h-css {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: -1.8em;
-  bottom: 12em;
+  font-size: 2em;
+  left: -0.9em;
+  bottom: 9.9em;
 }
 
 .css {
   position: relative;
-  left: 28.9em;
-  bottom: 18em;
-}
-
-.css-size {
-  width: 6%;
+  width: 6.8%;
+  left: 30.8em;
+  bottom: 20.6em;
 }
 
 /* Javascript logo */
 .h-javascript {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: 6em;
-  bottom: 18em;
+  font-size: 2em;
+  left: 5.5em;
+  bottom: 15.55em;
 }
 
 .javascript {
   position: relative;
-  left: 38.5em;
-  bottom: 27em;
-}
-
-.javascript-size {
-  width: 12%;
+  width: 14%;
+  bottom: 32em;
+  left: 41.2em;
 }
 
 /* Java logo */
 .h-java {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: 13.5em;
-  bottom: 24.1em;
+  font-size: 2em;
+  left: 11.5em;
+  bottom: 21.3em;
 }
 
 .java {
   position: relative;
-  left: 50em;
-  bottom: 37em;
-}
-
-.java-size {
-  width: 11%;
+  width: 12%;
+  padding: 0;
+  margin: 0;
+  bottom: 44.5em;
+  left: 53.7em;
 }
 
 /* Spring logo */
 .h-spring {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: -8em;
-  bottom: 25em;
+  font-size: 2em;
+  left: -6em;
+  bottom: 22.5em;
 }
 
 .spring {
   position: relative;
-  left: 18.8em;
-  bottom: 37.5em;
-}
-
-.spring-size {
-  width: 7.5%;
+  width: 9%;
+  left: 20em;
+  bottom: 45em;
 }
 
 /* SQL logo */
 .h-sql {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: -1.7em;
-  bottom: 30.5em;
+  font-size: 2em;
+  left: -0.9em;
+  bottom: 27.9em;
 }
 
 .sql {
-  position: relative;
-  left: 29.2em;
-  bottom: 46em;
-}
-
-.sql-size {
   width: 5%;
 }
 
@@ -314,28 +291,22 @@ footer {
 .h-django {
   position: relative;
   text-align: center;
-  font-size: 1.5em;
-  left: 5.8em;
-  bottom: 36.4em;
+  font-size: 2em;
+  left: 5.5em;
+  bottom: 33.7em;
 }
 
 .django {
-  position: relative;
-  left: 40em;
-  bottom: 55em;
-}
-
-.django-size {
   width: 7%;
 }
 
 .line2 {
   position: relative;
-  bottom: 44.5em;
+  bottom: 63em;
   width: 100%;
   background-color: #2c3539;
   height: 50px;
-  right: 33px;
+  left: 0em;
 }
 
 .h-projects {
@@ -558,546 +529,15 @@ footer {
   font-style: italic;
 }
 
-/* #IPHONE SE */
-@media screen and (min-width: 374px) and (max-width: 667px) {
-  body {
-    margin: 0;
-    display: grid;
-    grid-template-columns: min-content 1fr;
-    font-family: "Arvo", serif;
-    overflow-x: hidden;
-    background: #b6b6b4;
-  }
-
-  header {
-    grid-column: 1/3;
-    background: #2c3539;
-    padding: 1rem;
-    text-align: center;
-    color: #9afeff;
-    width: 100em;
-  }
-
-  header h1 {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    left: -2em;
-    font-size: 3em;
-  }
-
-  header p {
-    position: relative;
-    font-family: "Lobster", cursive;
-    left: -3em;
-    font-size: 2em;
-  }
-
-  .line {
-    position: relative;
-    bottom: 27em;
-    width: 100%;
-    background-color: #2c3539;
-    height: 50px;
-    right: 33px;
-  }
-
-  nav {
-    white-space: nowrap;
-    background: black;
-    line-height: 3em;
-    font-family: "Ubuntu", sans-serif;
-    display: none;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0.5em;
-  }
-
-  @media (min-height: 300px) {
-    nav ul {
-      position: sticky;
-      top: 0;
-      text-align: center;
-    }
-  }
-
-  nav ul h1 {
-    font-size: 15px;
-    color: #9afeff;
-  }
-
-  nav ul li a {
-    display: block;
-    padding: 0.5 rem 1rem;
-
-    text-decoration: none;
-    color: #9afeff;
-  }
-
-  nav ul li a:hover {
-    background: #9afeff;
-    color: black;
-    font-size: 1.2em;
-  }
-
-  main {
-    padding-bottom: 40rem;
-  }
-
-  section {
-    padding: 2rem;
-    margin: 0 0 2rem 0;
-    height: 35em;
-  }
-
-  /* #intro {
-    background-color: #9afeff;
-  } */
-
-  #skills {
-    background-color: white;
-    width: 90em;
-  }
-
-  #projects {
-    background-color: #b6b6b4;
-    height: 80em;
-  }
-
-  footer {
-    grid-column: 1/3;
-    background-color: #2c3539;
-    padding: 3rem 1rem;
-    color: #9afeff;
-    font-size: 2.5em;
-  }
-
-  .about {
-    left: 10em;
-    position: relative;
-    font-size: 4.5em;
-    border-bottom: 2px 2px black;
-    /* font-family: "Lobster", cursive; */
-    /* color: cyan; */
-    font-family: "Ubuntu", sans-serif;
-    bottom: 70px;
-  }
-
-  .info-me {
-    display: block;
-    left: 11.5em;
-    position: relative;
-    font-size: 2.3em;
-    width: 60%;
-    text-align: center;
-    bottom: 110px;
-  }
-
-  .gmail {
-    position: relative;
-    font-size: 1.5;
-    color: white;
-  }
-
-  .linkedIn {
-    position: relative;
-    font-size: 1.5;
-    color: white;
-  }
-
-  .github {
-    position: relative;
-    font-size: 1.5;
-    color: white;
-  }
-
-  .social {
-    color: #9afeff;
-    font-size: 2.5em;
-  }
-
-  .social:hover {
-    color: white;
-    font-size: 4em;
-    /* background-color: #9afeff;
-    width: 80%; */
-  }
-
-  .placeholder {
-    position: relative;
-    left: 3em;
-    bottom: 600px;
-  }
-
-  .placeholder-size {
-    width: 20%;
-  }
-
-  .h-skills {
-    position: relative;
-    font-size: 5em;
-    bottom: 40px;
-    left: 7em;
-    font-family: "Ubuntu", sans-serif;
-  }
-
-  /* #Python Logo */
-  .h-python {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -11.5em;
-    bottom: 2em;
-  }
-
-  .python {
-    position: relative;
-    left: 9.5em;
-    bottom: 7em;
-  }
-
-  .python-size {
-    width: 6%;
-  }
-
-  /* HTML logo */
-  .h-html {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -7em;
-    bottom: 6.83em;
-  }
-
-  .html {
-    position: relative;
-    left: 20.5em;
-    bottom: 21.5em;
-  }
-
-  .html-size {
-    width: 10%;
-  }
-
-  /* CSS logo */
-  .h-css {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: 3em;
-    bottom: 11.5em;
-  }
-
-  .css {
-    position: relative;
-    left: 52.5em;
-    bottom: 36em;
-  }
-
-  .css-size {
-    width: 5.5%;
-  }
-
-  /* Javascript logo */
-  .h-javascript {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.8em;
-    bottom: 16.41em;
-  }
-
-  .javascript {
-    position: relative;
-    left: 35em;
-    bottom: 50.5em;
-  }
-
-  .javascript-size {
-    width: 12%;
-  }
-
-  /* Java logo */
-  .h-java {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: 7em;
-    bottom: 21.5em;
-  }
-
-  .java {
-    position: relative;
-    left: 62.5em;
-    bottom: 67.5em;
-  }
-
-  .java-size {
-    width: 10%;
-  }
-
-  /* Spring logo */
-  .h-spring {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -7em;
-    bottom: 22em;
-  }
-
-  .spring {
-    position: relative;
-    left: 21.5em;
-    bottom: 66em;
-  }
-
-  .spring-size {
-    width: 8%;
-  }
-
-  /* SQL logo */
-  .h-sql {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.9em;
-    bottom: 26.8em;
-  }
-
-  .sql {
-    position: relative;
-    left: 38em;
-    bottom: 81em;
-  }
-
-  .sql-size {
-    width: 5.5%;
-  }
-
-  /* Django logo */
-  .h-django {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: 3em;
-    bottom: 32em;
-  }
-
-  .django {
-    position: relative;
-    left: 51em;
-    bottom: 97em;
-  }
-
-  .django-size {
-    width: 8%;
-  }
-
-  .line2 {
-    position: relative;
-    bottom: 95em;
-    width: 100%;
-    background-color: #2c3539;
-    height: 50px;
-    right: 33px;
-  }
-
-  .h-projects {
-    position: relative;
-    font-size: 5em;
-    left: 6.3em;
-    font-family: "Ubuntu", sans-serif;
-    bottom: 0.5em;
-  }
-
-  .square1 {
-    position: relative;
-    height: 40em;
-    width: 60em;
-    background-color: black;
-    left: 11em;
-    bottom: -1em;
-    border-radius: 5%;
-  }
-
-  .visit {
-    position: relative;
-    font-size: 3em;
-    color: white;
-    left: 6.3em;
-    bottom: 3.4em;
-    background: grey;
-    width: 120px;
-    padding-left: 10px;
-    border-style: groove;
-    border-radius: 5%;
-  }
-
-  .source {
-    text-align: center;
-    position: relative;
-    font-size: 3em;
-    color: white;
-    left: 5.7em;
-    bottom: 7.5em;
-    background: grey;
-    width: 175px;
-    padding-left: 10px;
-    border-style: groove;
-    border-radius: 5%;
-  }
-
-  .bowling {
-    position: relative;
-    bottom: 49em;
-    left: 13em;
-  }
-
-  .bowling-size {
-    width: 22%;
-  }
-
-  .charity {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.8em;
-    bottom: 27.4em;
-    font-style: italic;
-  }
-
-  .description {
-    position: relative;
-    font-size: 3em;
-    left: 11.6em;
-    bottom: 25.5em;
-    color: white;
-  }
-
-  .charity-info {
-    position: relative;
-    font-size: 2.8em;
-    text-align: center;
-    width: 14%;
-    color: white;
-    left: 11em;
-    bottom: 34em;
-  }
-
-  .square2 {
-    position: relative;
-    height: 40em;
-    width: 60em;
-    background-color: black;
-    left: 11em;
-    bottom: 65em;
-    border-radius: 5%;
-  }
-
-  .translator {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.9em;
-    bottom: 38em;
-    font-style: italic;
-  }
-
-  .translator-logo {
-    position: relative;
-    bottom: 107em;
-    left: 14em;
-  }
-
-  .translator-logo-size {
-    width: 20%;
-  }
-
-  .description2 {
-    position: relative;
-    font-size: 3em;
-    left: 11.6em;
-    bottom: 43.5em;
-    color: white;
-  }
-
-  .translator-info {
-    position: relative;
-    font-size: 2.8em;
-    text-align: center;
-    width: 14%;
-    color: white;
-    left: 11em;
-    bottom: 57.5em;
-  }
-
-  .visit2 {
-    position: relative;
-    font-size: 3em;
-    color: white;
-    left: 6.3em;
-    bottom: 47.5em;
-    background: grey;
-    width: 120px;
-    padding-left: 10px;
-    border-style: groove;
-    border-radius: 5%;
-  }
-
-  .square3 {
-    position: relative;
-    height: 20em;
-    width: 30em;
-    background-color: black;
-    left: 1em;
-    bottom: 175em;
-    border-radius: 5%;
-    visibility: hidden;
-  }
-
-  .empty1 {
-    position: relative;
-    text-align: center;
-    font-size: 1.5em;
-    left: -11.5em;
-    bottom: 100em;
-    font-style: italic;
-    visibility: hidden;
-  }
-
-  .square4 {
-    position: relative;
-    height: 20em;
-    width: 30em;
-    background-color: black;
-    left: 35em;
-    bottom: 200em;
-    border-radius: 5%;
-    visibility: hidden;
-  }
-
-  .empty2 {
-    position: relative;
-    text-align: center;
-    font-size: 1.5em;
-    left: 11em;
-    bottom: 117em;
-    font-style: italic;
-    visibility: hidden;
-  }
-}
-
 /* MY PHONE */
-@media screen and (min-width: 390px) and (max-width: 844px) {
+@media screen and (min-width: 350px) and (max-width: 844px) {
   header {
     grid-column: 1/3;
     background: #2c3539;
     padding: 1rem;
     text-align: center;
     color: #9afeff;
-    width: 120em;
+    width: 100%;
   }
 
   header h1 {
@@ -1606,5 +1046,43 @@ footer {
 
   .visit2 a:hover {
     color: black;
+  }
+
+  .square3 {
+    position: relative;
+    height: 20em;
+    width: 30em;
+    background-color: black;
+    left: 1em;
+    bottom: 150em;
+    border-radius: 5%;
+  }
+
+  .empty1 {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    left: -11.5em;
+    bottom: 105em;
+    font-style: italic;
+  }
+
+  .square4 {
+    position: relative;
+    height: 20em;
+    width: 30em;
+    background-color: black;
+    left: 35em;
+    bottom: 200em;
+    border-radius: 5%;
+  }
+
+  .empty2 {
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    left: 11em;
+    bottom: 120em;
+    font-style: italic;
   }
 }
