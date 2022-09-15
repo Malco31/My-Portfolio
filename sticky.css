@@ -7,6 +7,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: min-content 1fr;
+  grid-template-rows: 9.22em 35em 35em 35em 9.22em;
   font-family: "Arvo", serif;
   width: 100%;
   overflow-x: hidden;
@@ -19,7 +20,7 @@ header {
   padding: 1rem;
   text-align: center;
   color: #9afeff;
-  width: 97.5%;
+  width: auto;
 }
 
 header h1 {
@@ -30,25 +31,11 @@ header p {
   font-family: "Lobster", cursive;
 }
 
-.intro {
-  display
-}
-
-.line {
-  position: absolute;
-  width: 88.1%;
-  background-color: #2c3539;
-  height: 50px;
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
 nav {
+  grid-row: 2/5;
   white-space: nowrap;
   background: black;
   line-height: 3em;
-  /* background: white; */
-  /* background: grey; */
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -96,38 +83,60 @@ section {
   height: 35em;
 }
 
-/* #intro {
-  background-color: #9afeff;
-} */
+#intro {
+  display: flex;
+  grid-row: 2/3;
+  grid-column: 2/3;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
 #skills {
   background-color: white;
   width: 100%;
+  grid-row: 3/4;
+  grid-column: 2/3;
 }
 
 #projects {
   background-color: #b6b6b4;
+  grid-row: 4/5;
+  grid-column: 2/3;
 }
 
 footer {
   grid-column: 1/3;
+  grid-row: 5/6;
   background-color: #2c3539;
   padding: 3rem 1rem;
   color: #9afeff;
+  width: auto;
+}
+
+.about-info {
+  display: flex;
+  height: 20em;
+  width: 30em;
+  justify-content: center;
 }
 
 .about {
+  position: absolute;
   grid-column: 2/3;
+  grid-row: 2/3;
   font-size: 2em;
   border-bottom: 2px 2px black;
   font-family: "Ubuntu", sans-serif;
+  margin: 1em;
 }
 
 .info-me {
-  display: block;
-  position: absolute;
   font-size: 20px;
-  width: 40%;
+  width: 100%;
+  height: 15em;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 4em;
   text-align: center;
 }
 
@@ -161,200 +170,244 @@ footer {
 
 .placeholder {
   grid-column: 2/3;
-  position: absolute;
+  grid-row: 2/3;
+  height: 10em;
+  width: 10em;
 }
 
 .placeholder-size {
-  width: 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.line {
+  width: 100%;
+  background-color: #2c3539;
+  height: 50px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  align-self: flex-end;
 }
 
 .h-skills {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   font-size: 3em;
   font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin: 0;
 }
 
 /* #Python Logo */
 .h-python {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
 }
 
 .python {
-  position: relative;
-  width: 8%;
-  left: 8.3em;
-  bottom: -2em;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 /* HTML logo */
 .h-html {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
+  width: 180px;
 }
 
 .html {
-  position: relative;
-  width: 12.5%;
-  left: 18.6em;
-  bottom: 9.5em;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 /* CSS logo */
 .h-css {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
 }
 
 .css {
-  position: relative;
-  width: 6.8%;
-  left: 30.8em;
-  bottom: 20.6em;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 /* Javascript logo */
 .h-javascript {
-  grid-template-columns: 2/3;
-  position: absolute;
+  grid-row: 3/4;
+  grid-column: 2/3;
   text-align: center;
   font-size: 2em;
 }
 
 .javascript {
-  position: absolute;
-  width: 14%;
-  grid-template-columns: 2/3;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 /* Java logo */
 .h-java {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
 }
 
 .java {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
-  width: 12%;
-  padding: 0;
-  margin: 0;
+  width: auto;
+  height: 6em;
 }
 
 /* Spring logo */
 .h-spring {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
 }
 
 .spring {
-  position: relative;
-  width: 9%;
-  left: 20em;
-  bottom: 45em;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 /* SQL logo */
 .h-sql {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
 }
 
 .sql {
-  position: relative;
-  width: 5%;
-  bottom: 30em;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 /* Django logo */
 .h-django {
+  grid-row: 3/4;
   grid-column: 2/3;
-  position: absolute;
   text-align: center;
   font-size: 2em;
 }
 
 .django {
-  width: 7%;
+  grid-row: 3/4;
+  grid-column: 2/3;
+  width: auto;
+  height: 6em;
 }
 
 .line2 {
-  position: relative;
-  bottom: 63em;
+  margin-top: 1.04em;
+  grid-row: 3/4;
+  grid-column: 2/3;
   width: 100%;
   background-color: #2c3539;
   height: 50px;
-  left: 0em;
+}
+
+.logo {
+  text-align: center;
+  width: 10em;
+}
+
+.all-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 
 .h-projects {
   grid-column: 2/3;
-  position: absolute;
+  grid-row: 4/5;
   font-size: 3em;
-  /* font-family: "Lobster", cursive; */
   font-family: "Ubuntu", sans-serif;
+  text-align: center;
 }
 
-.square1 {
-  position: relative;
+.cards {
+  grid-column: 2/3;
+  grid-row: 4/5;
   height: 20em;
   width: 30em;
-  background-color: black;
-  left: 1em;
-  bottom: -7.4em;
-  border-radius: 5%;
 }
 
-.visit {
-  grid-column: 2/3;
-  position: absolute;
+.card-title {
+  text-align: center;
   font-size: 1.5em;
-  color: white;
-  background: grey;
-  width: 60px;
-  padding-left: 10px;
-  border-style: groove;
+  font-style: italic;
+  margin: 0;
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  background-color: black;
   border-radius: 5%;
+  flex-direction: row;
 }
 
-.visit a {
-  text-decoration: none;
-  color: white;
+.left {
+  height: 100%;
+  margin: 0;
+  width: 50%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.visit:hover {
-  background: #9afeff;
-}
-
-.visit a:hover {
-  color: black;
+.right {
+  height: 100%;
+  margin: 0;
+  width: 50%;
+  float: right;
+  display: flex;
+  flex-direction: column;
 }
 
 .source {
-  text-align: center;
   position: relative;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  text-align: center;
   font-size: 1.5em;
   color: white;
-  left: 3.6em;
-  bottom: 3.5em;
-  background: grey;
+  background: #b6b6b4;
   width: 85px;
   padding-left: 5px;
   border-style: groove;
   border-radius: 5%;
+  margin-bottom: 0em;
+  top: 0.5em;
 }
 .source a {
   text-decoration: none;
@@ -370,701 +423,118 @@ footer {
   color: black;
 }
 
-.bowling {
-  position: relative;
-  grid-template-columns: 2/3;
-}
-
-.bowling-size {
-  width: 15%;
-}
-
-.charity {
-  position: relative;
-  text-align: center;
-  font-size: 1.5em;
-  left: -11.5em;
-  bottom: 23.5em;
-  font-style: italic;
-}
-
-.description {
+.visit {
   grid-column: 2/3;
-  position: absolute;
+  grid-row: 4/5;
   font-size: 1.5em;
   color: white;
-}
-
-.charity-info {
-  grid-template-columns: 2/3;
-  position: absolute;
-  font-size: 1.2em;
-  text-align: center;
-  width: 14%;
-  color: white;
-  left: 11em;
-  bottom: 35em;
-}
-
-.square2 {
-  position: absolute;
-  height: 20em;
-  width: 30em;
-  background-color: black;
-  grid-template-columns: 2/3;
-  border-radius: 5%;
-}
-
-.translator {
-  position: absolute;
-  text-align: center;
-  font-size: 1.5em;
-  grid-template-columns: 2/3;
-  font-style: italic;
-}
-
-.translator-logo {
-  grid-column: 2/3;
-  position: absolute;
-}
-
-.translator-logo-size {
-  width: 13%;
-}
-
-.description2 {
-  grid-column: 2/3;
-  position: absolute;
-  font-size: 1.5em;
-  color: white;
-}
-
-.translator-info {
-  grid-column: 2/3;
-  position: absolute;
-  font-size: 1.2em;
-  text-align: center;
-  width: 14%;
-  color: white;
-}
-
-.visit2 {
-  position: relative;
-  font-size: 1.5em;
-  color: white;
-  left: 26.7em;
-  bottom: 59em;
-  background: grey;
+  background: #b6b6b4;
   width: 60px;
   padding-left: 10px;
   border-style: groove;
   border-radius: 5%;
+  margin-left: 0.5em;
 }
 
-.visit2 a {
+.visit a {
   text-decoration: none;
   color: white;
+  margin-bottom: 0;
 }
 
-.visit2:hover {
+.visit:hover {
   background: #9afeff;
+}
+
+.visit a:hover {
   color: black;
 }
 
-.visit2 a:hover {
-  color: black;
-}
-
-.square3 {
+.bowling {
   position: relative;
-  height: 20em;
-  width: 30em;
-  background-color: black;
-  left: 1em;
-  bottom: 75em;
-  border-radius: 5%;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  top: 1.5em;
 }
 
-.empty1 {
-  position: relative;
-  text-align: center;
-  font-size: 1.5em;
-  left: -11.5em;
-  bottom: 66.8em;
-  font-style: italic;
+.bowling-size {
+  width: 10em;
+  height: auto;
 }
 
-.square4 {
-  grid-template-columns: 2/3;
-  position: absolute;
-  height: 20em;
-  width: 30em;
-  background-color: black;
-  border-radius: 5%;
-}
-
-.empty2 {
-  grid-template-columns: 2/3;
-  position: absolute;
+.charity {
+  grid-column: 2/3;
+  grid-row: 4/5;
   text-align: center;
   font-size: 1.5em;
   font-style: italic;
+  margin-bottom: 1em;
 }
 
-/* MY PHONE */
-@media screen and (min-width: 350px) and (max-width: 844px) {
+.description {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  font-size: 1.5em;
+  color: white;
+  height: fit-content;
+  margin-bottom: 0;
+  margin-top: 1.5em;
+}
+
+.charity-info {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  font-size: 1.2em;
+  color: white;
+  text-align: left;
+  margin: 0;
+}
+
+.p-charity {
+  margin: 0;
+  margin-top: 0.8em;
+}
+
+.charity-specifics {
+  font-size: 1.2em;
+  color: white;
+  text-decoration: underline;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-between;
+}
+
+.translator {
+  position: relative;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  top: 1.5em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.translator-size {
+  width: 10em;
+  height: auto;
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
   header {
     grid-column: 1/3;
     background: #2c3539;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
     color: #9afeff;
-    width: 100%;
-  }
-
-  header h1 {
-    position: relative;
-    font-family: "Ubuntu", sans-serif;
-    left: -2.5em;
-    font-size: 5em;
-  }
-
-  header p {
-    position: relative;
-    font-family: "Lobster", cursive;
-    left: -4.2em;
-    font-size: 3em;
-  }
-
-  .line {
-    position: relative;
-    bottom: 28em;
-    width: 100%;
-    background-color: #2c3539;
-    height: 50px;
-    right: 33px;
-  }
-
-  nav {
-    white-space: nowrap;
-    background: black;
-    line-height: 3em;
-    font-family: "Ubuntu", sans-serif;
-    display: none;
-  }
-
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0.5em;
-  }
-
-  @media (min-height: 300px) {
-    nav ul {
-      position: sticky;
-      top: 0;
-      text-align: center;
-    }
-  }
-
-  nav ul h1 {
-    font-size: 15px;
-    color: #9afeff;
-  }
-
-  nav ul li a {
-    display: block;
-    padding: 0.5 rem 1rem;
-
-    text-decoration: none;
-    color: #9afeff;
-  }
-
-  nav ul li a:hover {
-    background: #9afeff;
-    color: black;
-    font-size: 1.2em;
-  }
-
-  main {
-    padding-bottom: 40rem;
-  }
-
-  section {
-    padding: 2rem;
-    margin: 0 0 2rem 0;
-    height: 35em;
-  }
-
-  #intro {
-    height: 60em;
-  }
-
-  #skills {
-    background-color: white;
-    width: 100em;
-  }
-
-  #projects {
-    background-color: #b6b6b4;
-    height: 80em;
-  }
-
-  footer {
-    grid-column: 1/3;
-    background-color: #2c3539;
-    padding: 3rem 1rem;
-    color: #9afeff;
-    font-size: 2.5em;
-  }
-
-  .about {
-    left: 11em;
-    position: relative;
-    font-size: 4.5em;
-    border-bottom: 2px 2px black;
-    font-family: "Ubuntu", sans-serif;
-    bottom: 70px;
-  }
-
-  .info-me {
-    display: block;
-    left: 9.4em;
-    position: relative;
-    font-size: 3.2em;
-    width: 60%;
-    text-align: center;
-    bottom: 113px;
-  }
-
-  .gmail {
-    position: relative;
-    font-size: 1.5;
-    color: white;
-  }
-
-  .linkedIn {
-    position: relative;
-    font-size: 1.5;
-    color: white;
-  }
-
-  .github {
-    position: relative;
-    font-size: 1.5;
-    color: white;
-  }
-
-  .social {
-    color: #9afeff;
-    font-size: 2.5em;
-  }
-
-  .social:hover {
-    color: white;
-    font-size: 4em;
-    /* background-color: #9afeff;
-    width: 80%; */
-  }
-
-  .placeholder {
-    position: relative;
-    left: 3em;
-    bottom: 800px;
-  }
-
-  .placeholder-size {
-    width: 20%;
-  }
-
-  .h-skills {
-    position: relative;
-    font-size: 5em;
-    bottom: 40px;
-    left: 8em;
-    /* font-family: "Lobster", cursive; */
-    /* color: cyan; */
-    font-family: "Ubuntu", sans-serif;
-  }
-
-  /* #Python Logo */
-  .h-python {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -11.5em;
-    bottom: 2em;
-  }
-
-  .python {
-    position: relative;
-    left: 9.5em;
-    bottom: 7em;
-  }
-
-  .python-size {
-    width: 6%;
-  }
-
-  /* HTML logo */
-  .h-html {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -7em;
-    bottom: 6.59em;
-  }
-
-  .html {
-    position: relative;
-    left: 23.5em;
-    bottom: 21.5em;
-  }
-
-  .html-size {
-    width: 10%;
-  }
-
-  /* CSS logo */
-  .h-css {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: 3em;
-    bottom: 11.5em;
-  }
-
-  .css {
-    position: relative;
-    left: 52.5em;
-    bottom: 36em;
-  }
-
-  .css-size {
-    width: 5.5%;
-  }
-
-  /* Javascript logo */
-  .h-javascript {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.5em;
-    bottom: 16.41em;
-  }
-
-  .javascript {
-    position: relative;
-    left: 39.5em;
-    bottom: 50.5em;
-  }
-
-  .javascript-size {
-    width: 12%;
-  }
-
-  /* Java logo */
-  .h-java {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: 7em;
-    bottom: 21.5em;
-  }
-
-  .java {
-    position: relative;
-    left: 62.5em;
-    bottom: 67.5em;
-  }
-
-  .java-size {
-    width: 10%;
-  }
-
-  /* Spring logo */
-  .h-spring {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -7em;
-    bottom: 22em;
-  }
-
-  .spring {
-    position: relative;
-    left: 21.5em;
-    bottom: 66em;
-  }
-
-  .spring-size {
-    width: 8%;
-  }
-
-  /* SQL logo */
-  .h-sql {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.9em;
-    bottom: 26.8em;
-  }
-
-  .sql {
-    position: relative;
-    left: 38em;
-    bottom: 81em;
-  }
-
-  .sql-size {
-    width: 5.5%;
-  }
-
-  /* Django logo */
-  .h-django {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: 3em;
-    bottom: 32em;
-  }
-
-  .django {
-    position: relative;
-    left: 51em;
-    bottom: 97em;
-  }
-
-  .django-size {
-    width: 8%;
-  }
-
-  .line2 {
-    position: relative;
-    bottom: 105em;
-    width: 100%;
-    background-color: #2c3539;
-    height: 50px;
-    right: 33px;
-  }
-
-  .h-projects {
-    position: relative;
-    font-size: 5em;
-    left: 7.45em;
-    font-family: "Ubuntu", sans-serif;
-    bottom: 0.5em;
-  }
-
-  .square1 {
-    position: relative;
-    height: 40em;
-    width: 60em;
-    background-color: black;
-    left: 17em;
-    bottom: -1em;
-    border-radius: 5%;
-  }
-
-  .visit {
-    position: relative;
-    font-size: 3em;
-    color: white;
-    left: 8.3em;
-    bottom: 3.4em;
-    background: grey;
-    width: 120px;
-    padding-left: 10px;
-    border-style: groove;
-    border-radius: 5%;
-  }
-
-  .visit a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .visit:hover {
-    background: #9afeff;
-  }
-
-  .visit a:hover {
-    color: black;
-  }
-
-  .source {
-    text-align: center;
-    position: relative;
-    font-size: 3em;
-    color: white;
-    left: 7.7em;
-    bottom: 7.5em;
-    background: grey;
-    width: 175px;
-    padding-left: 10px;
-    border-style: groove;
-    border-radius: 5%;
-  }
-  .source a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .source:hover {
-    background: #9afeff;
-    color: black;
-  }
-
-  .source a:hover {
-    color: black;
-  }
-
-  .bowling {
-    position: relative;
-    bottom: 49.5em;
-    left: 18em;
-  }
-
-  .bowling-size {
-    width: 22%;
-  }
-
-  .charity {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.2em;
-    bottom: 27.9em;
-    font-style: italic;
-  }
-
-  .description {
-    position: relative;
-    font-size: 3em;
-    left: 14em;
-    bottom: 25.5em;
-    color: white;
-  }
-
-  .charity-info {
-    position: relative;
-    font-size: 2.8em;
-    text-align: center;
-    width: 14%;
-    color: white;
-    left: 14em;
-    bottom: 34em;
-  }
-
-  .square2 {
-    position: relative;
-    height: 40em;
-    width: 60em;
-    background-color: black;
-    left: 17em;
-    bottom: 65em;
-    border-radius: 5%;
-  }
-
-  .translator {
-    position: relative;
-    text-align: center;
-    font-size: 3em;
-    left: -1.5em;
-    bottom: 38em;
-    font-style: italic;
-  }
-
-  .translator-logo {
-    position: relative;
-    bottom: 107em;
-    left: 19em;
-  }
-
-  .translator-logo-size {
-    width: 20%;
-  }
-
-  .description2 {
-    position: relative;
-    font-size: 3em;
-    left: 14em;
-    bottom: 44em;
-    color: white;
-  }
-
-  .translator-info {
-    position: relative;
-    font-size: 2.8em;
-    text-align: center;
-    width: 14%;
-    color: white;
-    left: 14em;
-    bottom: 58em;
-  }
-
-  .visit2 {
-    position: relative;
-    font-size: 3em;
-    color: white;
-    left: 8.3em;
-    bottom: 48em;
-    background: grey;
-    width: 120px;
-    padding-left: 10px;
-    border-style: groove;
-    border-radius: 5%;
-  }
-
-  .visit2 a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .visit2:hover {
-    background: #9afeff;
-    color: black;
-  }
-
-  .visit2 a:hover {
-    color: black;
-  }
-
-  .square3 {
-    position: relative;
-    height: 20em;
-    width: 30em;
-    background-color: black;
-    left: 1em;
-    bottom: 150em;
-    border-radius: 5%;
-  }
-
-  .empty1 {
-    position: relative;
-    text-align: center;
-    font-size: 1.5em;
-    left: -11.5em;
-    bottom: 105em;
-    font-style: italic;
-  }
-
-  .square4 {
-    position: relative;
-    height: 20em;
-    width: 30em;
-    background-color: black;
-    left: 35em;
-    bottom: 200em;
-    border-radius: 5%;
-  }
-
-  .empty2 {
-    position: relative;
-    text-align: center;
-    font-size: 1.5em;
-    left: 11em;
-    bottom: 120em;
-    font-style: italic;
+    width: auto;
   }
 }
