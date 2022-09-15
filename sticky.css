@@ -140,24 +140,6 @@ footer {
   text-align: center;
 }
 
-.gmail {
-  position: relative;
-  font-size: 1.5;
-  color: white;
-}
-
-.linkedIn {
-  position: relative;
-  font-size: 1.5;
-  color: white;
-}
-
-.github {
-  position: relative;
-  font-size: 1.5;
-  color: white;
-}
-
 .social {
   color: #9afeff;
   font-size: 2.5em;
@@ -171,8 +153,8 @@ footer {
 .placeholder {
   grid-column: 2/3;
   grid-row: 2/3;
-  height: 10em;
-  width: 10em;
+  height: 20em;
+  width: 20em;
 }
 
 .placeholder-size {
@@ -524,17 +506,79 @@ footer {
   height: auto;
 }
 
+.all-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  column-gap: 1em;
+  display: none;
+}
+
+.social2 {
+  color: #9afeff;
+  font-size: 4em;
+}
+
+.social2:hover {
+  color: white;
+}
+
+/*  EXTRA SMALL PHONES */
 @media screen and (max-width: 600px) {
   nav {
     display: none;
   }
 
-  header {
-    grid-column: 1/3;
-    background: #2c3539;
-    padding: 1rem;
-    text-align: left;
-    color: #9afeff;
-    width: auto;
+  .all-socials {
+    display: flex;
+  }
+
+  .about {
+    width: 10em;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+  }
+
+  .cards {
+    height: 18em;
+    width: 28em;
+  }
+
+  .bowling-size {
+    width: 8em;
+    height: auto;
+  }
+
+  .translator-size {
+    width: 8em;
+    height: auto;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (min-width: 600px) {
+  .about {
+    width: 15em;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4em;
+  }
+
+  .info-me {
+    font-size: 1.9;
+  }
+
+  .placeholder {
+    height: 15em;
+    width: 15em;
+  }
+
+  .cards {
+    height: 15em;
+    width: 20em;
   }
 }
