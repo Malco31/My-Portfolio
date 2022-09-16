@@ -542,12 +542,83 @@ footer {
   }
 
   .placeholder {
-    height: 15em;
-    width: 12em;
+    height: 13em;
+    width: 10em;
   }
 
   .all-socials {
     display: flex;
+  }
+
+  .logo {
+    width: 8em;
+  }
+
+  .h-python {
+    font-size: 1.5em;
+  }
+
+  .python {
+    width: auto;
+    height: 4em;
+  }
+
+  .h-html {
+    font-size: 1.5em;
+    width: 125px;
+    text-align: center;
+  }
+
+  .html {
+    height: 4em;
+  }
+
+  .h-css {
+    font-size: 1.5em;
+  }
+
+  .css {
+    height: 4em;
+  }
+
+  .h-javascript {
+    font-size: 1.5em;
+  }
+
+  .javascript {
+    height: 4em;
+  }
+
+  .h-java {
+    font-size: 1.5em;
+  }
+
+  .java {
+    height: 4em;
+  }
+
+  .h-spring {
+    font-size: 1.5em;
+  }
+
+  .spring {
+    height: 4em;
+  }
+
+  .h-sql {
+    font-size: 1.5em;
+  }
+
+  .sql {
+    height: 4em;
+  }
+
+  .h-django {
+    font-size: 1.5em;
+  }
+
+  .django {
+    height: 4em;
   }
 
   .about-info {
@@ -577,6 +648,7 @@ footer {
     height: 18em;
     width: 28em;
     margin-bottom: 5em;
+    margin-right: 1em;
   }
 
   .bowling-size {
@@ -612,7 +684,7 @@ footer {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px) {
   body {
-    grid-template-rows: 9.22em 35em 35em 35em 9.22em;
+    grid-template-rows: 9.22em 35em 35em 47em 9.22em;
   }
 
   .about-info {
@@ -642,29 +714,263 @@ footer {
     width: 8em;
   }
 
+  .h-python {
+    font-size: 1.5em;
+  }
+
+  .python {
+    width: auto;
+    height: 4em;
+  }
+
+  .h-html {
+    font-size: 1.5em;
+    width: 125px;
+    text-align: center;
+  }
+
+  .html {
+    height: 4em;
+  }
+
+  .h-css {
+    font-size: 1.5em;
+  }
+
+  .css {
+    height: 4em;
+  }
+
+  .h-javascript {
+    font-size: 1.5em;
+  }
+
+  .javascript {
+    height: 4em;
+  }
+
+  .h-java {
+    font-size: 1.5em;
+  }
+
+  .java {
+    height: 4em;
+  }
+
+  .h-spring {
+    font-size: 1.5em;
+  }
+
+  .spring {
+    height: 4em;
+  }
+
+  .h-sql {
+    font-size: 1.5em;
+  }
+
+  .sql {
+    height: 4em;
+  }
+
+  .h-django {
+    font-size: 1.5em;
+  }
+
+  .django {
+    height: 4em;
+  }
+
+  .all-cards {
+    flex-wrap: wrap;
+  }
+
   .cards {
     height: 15em;
     width: 20em;
+    margin-bottom: 5em;
+  }
+
+  .description {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 1.1em;
+    color: white;
+    height: fit-content;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+  }
+
+  .charity-info {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 0.7em;
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+
+  .translator {
+    position: relative;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    top: 1.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .translator-size {
+    width: 7em;
+    height: auto;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .example {
-    background: blue;
+@media only screen and (min-width: 783px) {
+  .placeholder {
+    height: 27em;
+    width: 27em;
+  }
+
+  .line2 {
+    margin-bottom: 0;
+    margin-top: 10em;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .example {
-    background: orange;
+@media only screen and (min-width: 1300px) {
+  .about-info {
+    width: 40em;
+  }
+
+  .about {
+    font-size: 3em;
+  }
+
+  .info-me {
+    font-size: 1.7em;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+  }
+
+  .logo {
+    width: 13em;
+  }
+
+  .h-python {
+    font-size: 2em;
+  }
+
+  .python {
+    width: auto;
+    height: 5em;
+  }
+
+  .h-html {
+    font-size: 2em;
+    width: 200px;
+    text-align: center;
+  }
+
+  .html {
+    height: 5em;
+  }
+
+  .h-css {
+    font-size: 2em;
+  }
+
+  .css {
+    height: 5em;
+  }
+
+  .h-javascript {
+    font-size: 2em;
+  }
+
+  .javascript {
+    height: 5em;
+  }
+
+  .h-java {
+    font-size: 2em;
+  }
+
+  .java {
+    height: 5em;
+  }
+
+  .h-spring {
+    font-size: 2em;
+  }
+
+  .spring {
+    height: 5em;
+  }
+
+  .h-sql {
+    font-size: 2em;
+  }
+
+  .sql {
+    height: 5em;
+  }
+
+  .h-django {
+    font-size: 2em;
+  }
+
+  .django {
+    height: 5em;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .example {
-    background: pink;
+@media only screen and (min-width: 2000px) {
+  .placeholder {
+    height: 20em;
+    width: 20em;
+  }
+
+  /* .line2 {
+    margin-top: 0;
+    margin-bottom: 10em;
+  } */
+
+  .cards {
+    height: 25em;
+    width: 35em;
+  }
+
+  .description {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 2em;
+    color: white;
+    height: fit-content;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+  }
+
+  .charity-info {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 1.5em;
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+
+  .bowling-size {
+    width: 15em;
+  }
+
+  .translator-size {
+    width: 10em;
+  }
+
+  .card-title {
+    font-size: 2em;
   }
 }
