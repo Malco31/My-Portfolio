@@ -153,13 +153,20 @@ footer {
 .placeholder {
   grid-column: 2/3;
   grid-row: 2/3;
-  height: 20em;
-  width: 20em;
+  height: 50em;
+  width: 50em;
 }
 
 .placeholder-size {
   width: 100%;
   height: 100%;
+  border-radius: 5%;
+  border-style: groove;
+  border-color: black;
+  border-top-width: 0.3em;
+  border-right-width: 0.3em;
+  border-bottom-width: 0.3em;
+  border-left-width: 0.3em;
 }
 
 .line {
@@ -526,25 +533,50 @@ footer {
 
 /*  EXTRA SMALL PHONES */
 @media screen and (max-width: 600px) {
+  body {
+    grid-template-rows: 9.22em 35em 35em 55em 9.22em;
+  }
+
   nav {
     display: none;
+  }
+
+  .placeholder {
+    height: 15em;
+    width: 12em;
   }
 
   .all-socials {
     display: flex;
   }
 
+  .about-info {
+    height: 30em;
+    width: 10em;
+  }
+
   .about {
     width: 10em;
-    font-size: 3em;
+    font-size: 1.5em;
     text-align: center;
     margin-top: 0;
     margin-bottom: 2em;
   }
 
+  .info-me {
+    font-size: 0.9em;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+  }
+
+  .all-cards {
+    flex-wrap: wrap;
+  }
+
   .cards {
     height: 18em;
     width: 28em;
+    margin-bottom: 5em;
   }
 
   .bowling-size {
@@ -556,29 +588,83 @@ footer {
     width: 8em;
     height: auto;
   }
+
+  .description {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 1.2em;
+    color: white;
+    height: fit-content;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+  }
+
+  .charity-info {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 0.9em;
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px) {
+  body {
+    grid-template-rows: 9.22em 35em 35em 35em 9.22em;
+  }
+
+  .about-info {
+    height: 25em;
+    width: 25em;
+  }
+
   .about {
     width: 15em;
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     margin-top: 0;
     margin-bottom: 4em;
   }
 
   .info-me {
-    font-size: 1.9;
+    font-size: 1.2em;
+    margin-bottom: 4em;
   }
 
   .placeholder {
-    height: 15em;
-    width: 15em;
+    height: 13em;
+    width: 13em;
+  }
+
+  .logo {
+    width: 8em;
   }
 
   .cards {
     height: 15em;
     width: 20em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
   }
 }
