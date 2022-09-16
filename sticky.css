@@ -837,6 +837,49 @@ footer {
     margin-bottom: 0;
     margin-top: 10em;
   }
+
+  .cards {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    height: 22em;
+    width: 32em;
+  }
+
+  .card-title {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0;
+  }
+
+  .description {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 1.5em;
+    color: white;
+    height: fit-content;
+    margin-bottom: 0;
+    margin-top: 1.5em;
+  }
+
+  .charity-info {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    font-size: 1.2em;
+    color: white;
+    text-align: left;
+    margin: 0;
+  }
+
+  .translator-size {
+    width: 10em;
+    height: auto;
+  }
+
+  .bowling-size {
+    width: 12em;
+    height: auto;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
