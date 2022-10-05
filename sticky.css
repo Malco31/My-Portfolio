@@ -185,7 +185,6 @@ footer {
   font-size: 3em;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-  margin: 0;
 }
 
 /* #Python Logo */
@@ -832,6 +831,7 @@ footer {
     height: 27em;
     width: 27em;
   }
+  
 
   .line2 {
     margin-bottom: 0;
