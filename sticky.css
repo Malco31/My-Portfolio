@@ -309,7 +309,6 @@ footer {
 }
 
 .line2 {
-  margin-top: 1.04em;
   grid-row: 3/4;
   grid-column: 2/3;
   width: 100%;
