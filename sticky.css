@@ -517,12 +517,15 @@ footer {
 .prev-btn {
   border: none;
   background: none;
+  grid-column: 2/3;
+  grid-row: 4/5;
   margin-right: 0;
   margin-left: 2em;
   padding: 0;
   font-size: 3em;
   color: black;
-  
+  height: 50px;
+  align-self: center;
 }
 
 .prev-btn:hover {
@@ -541,7 +544,8 @@ footer {
   padding: 0;
   font-size: 3em;
   color: black;
-  
+  height: 50px;
+  align-self: center;
 }
 
 .next-btn:hover {
@@ -585,7 +589,7 @@ footer {
 
   .python {
     width: auto;
-    height: 3em;
+    height: 4em;
   }
 
   .h-html {
@@ -595,7 +599,7 @@ footer {
   }
 
   .html {
-    height: 3em;
+    height: 4em;
   }
 
   .h-css {
@@ -603,7 +607,7 @@ footer {
   }
 
   .css {
-    height: 3em;
+    height: 4em;
   }
 
   .h-javascript {
@@ -611,7 +615,7 @@ footer {
   }
 
   .javascript {
-    height: 3em;
+    height: 4em;
   }
 
   .h-java {
@@ -619,7 +623,7 @@ footer {
   }
 
   .java {
-    height: 3em;
+    height: 4em;
   }
 
   .h-spring {
@@ -627,7 +631,7 @@ footer {
   }
 
   .spring {
-    height: 3em;
+    height: 4em;
   }
 
   .h-sql {
@@ -635,7 +639,7 @@ footer {
   }
 
   .sql {
-    height: 3em;
+    height: 4em;
   }
 
   .h-django {
@@ -643,7 +647,7 @@ footer {
   }
 
   .django {
-    height: 3em;
+    height: 4em;
   }
 
   .about-info {
@@ -670,30 +674,20 @@ footer {
   }
 
   .cards {
-    height: 14em;
-    width: 20em;
+    height: 18em;
+    width: 28em;
     margin-bottom: 5em;
     margin-right: 1em;
   }
 
   .bowling-size {
-    width: 6em;
+    width: 8em;
     height: auto;
   }
 
   .translator-size {
     width: 8em;
     height: auto;
-  }
-
-  .source {
-    font-size: 1em;
-    width: 64px;
-  }
-
-  .visit {
-    font-size: 1em;
-    width: 45px;
   }
 
   .description {
