@@ -130,23 +130,27 @@
       <section id="projects">
         <h1 class="h-projects"><u>Projects</u></h1>
         <div class="all-cards">
+          <button class="prev-btn">
+            <ion-icon name="arrow-back"></ion-icon>
+          </button>
           <div class="cards">
-            <p class="card-title"><u>Charity Lanes</u></p>
+            <p class="card-title" id="title"><u>Charity Lanes</u></p>
             <div class="square">
+
               <div class="left">
                 <div class="bowling">
-                  <img class="bowling-size" src="images/bowlinglogo.png" />
+                  <img class="bowling-size" id="person-img" src="images/bowlinglogo.png" />
                 </div>
                 <div>
                   <p class="source">
-                    <a
+                    <a id="source_link"
                       href="https://github.com/Malco31/fictional-charity"
                       target="_blank"
                       >Source</a
                     >
                   </p>
                   <p class="visit">
-                    <a
+                    <a id="visit_link"
                       href="https://malco31.github.io/fictional-charity"
                       target="_blank"
                       >Visit</a
@@ -154,58 +158,38 @@
                   </p>
                 </div>
               </div>
+              
               <div class="right">
                 <p class="description"><u>Description</u></p>
                 <div class="charity-info">
-                  <p class="p-charity">
+                  <p class="p-charity" id="info">
                     This is a website created for a fictional charity. This
                     project was created using HTML and CSS.
                   </p>
-                </div>
+                
 
                 <div class="charity-specifics">
-                  <p class="type">Solo Website Project</p>
-                  <p class="date">August 2022</p>
+                  <p class="type" id="type">Solo Website Project</p>
+                  <p class="date" id="date">August 2022</p>
                 </div>
+
+                <!-- prev next buttons-->
+                 
+                  
+                </div>
+
               </div>
             </div>
           </div>
-          <div class="cards">
-            <p class="card-title"><u>Translator</u></p>
-            <div class="square">
-              <div class="left">
-                <div class="translator">
-                  <img class="translator-size" src="images/language.png" />
-                </div>
-                <div>
-                  <p class="visit">
-                    <a
-                      href="https://replit.com/@unit-project-2/Translator-program#poetry.lock"
-                      target="_blank"
-                      >Visit</a
-                    >
-                  </p>
-                </div>
-              </div>
-              <div class="right">
-                <p class="description"><u>Description</u></p>
-                <div class="charity-info">
-                  <p class="p-charity">
-                    This is a program used to translate text into many different
-                    languages. This program was created using python.
-                  </p>
-                </div>
-
-                <div class="charity-specifics">
-                  <p class="type">Group Unit Project</p>
-                  <p class="date">August 2022</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <button class="next-btn">
+            <ion-icon name="arrow-forward"></ion-icon>
+          </button>
+          
         </div>
       </section>
     </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
 
     <footer>
       &copy; 2022 Malcolm-Johnson

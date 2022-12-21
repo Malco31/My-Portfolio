@@ -1,51 +1,33 @@
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+<div class="cards">
+  <p class="card-title"><u>Translator</u></p>
+  <div class="square">
+    <div class="left">
+      <div class="translator">
+        <img class="translator-size" src="images/language.png" />
+      </div>
+      <div>
+        <p class="visit">
+          <a
+            href="https://replit.com/@unit-project-2/Translator-program#poetry.lock"
+            target="_blank"
+            >Visit</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="right">
+      <p class="description"><u>Description</u></p>
+      <div class="charity-info">
+        <p class="p-charity">
+          This is a program used to translate text into many different
+          languages. This program was created using python.
+        </p>
+      </div>
 
-[data-mode="light"] {
-  --bg-color: #fff;
-  --text-color: #000;
-}
-
-[data-mode="dark"] {
-  --bg-color: #000;
-  --text-color: cyan;
-}
-.light-switch {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100vh;
-  gap: 50px;
-}
-
-.mode {
-  position: relative;
-  width: 10px;
-  height: 10px;
-  background-color: rgba(63, 63, 63, 1);
-  border-radius: 90px;
-  box-shadow: inset 8px 10px 10px 0px #000;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-}
-
-.witch-mode {
-  margin-left: 15px;
-  background-color: #fff;
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  outline: none;
-  border-radius: 50%;
-}
-
-[data-mode="dark"] .mode {
-  border: 1px solid #fff;
-} */
+      <div class="charity-specifics">
+        <p class="type">Group Unit Project</p>
+        <p class="date">August 2022</p>
+      </div>
+    </div>
+  </div>
+</div>
