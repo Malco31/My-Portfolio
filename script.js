@@ -165,7 +165,7 @@ const projects = [
     role: "Full Stack",
     highlights: "HTML, CSS, Javascript",
     imageSrc: 'images/wgt.png',
-    codeLink: 'https://malco31.github.io/WGT-Ecommerce/',
+    codeLink: 'https://malco31.github.io/WGT-Ecommerce/index.html',
   },
   {
     name: 'Touriste',
