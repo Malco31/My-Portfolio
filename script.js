@@ -159,6 +159,15 @@ function changeSkillText(skillName) {
 
 const projects = [
   {
+    name: 'WGT-Ecommerce Shop',
+    description: "Welcome to WGT, a sample ecommerce application where we've brewed up a digital oasis for tea lovers worldwide. Explore our tea catalog, learn about tea varieties, and discover new flavors. Join WGT today and steep yourself in the world of tea with ease and sophistication.",
+    type: "Solo Project",
+    role: "Full Stack",
+    highlights: "HTML, CSS, Javascript",
+    imageSrc: 'images/wgt.png',
+    codeLink: 'https://malco31.github.io/WGT-Ecommerce/',
+  },
+  {
     name: 'Touriste',
     description: 'Touriste is a travel website made for a real client. It is meant for users to go to the client\'s website to get in touch with them about booking a trip to almost anywhere in the world, on any budget.',
     type: 'Group Project',
