@@ -159,7 +159,7 @@ function changeSkillText(skillName) {
 
 const projects = [
   {
-    name: 'WGT-Ecommerce Shop',
+    name: 'WGT',
     description: "Welcome to WGT, a sample ecommerce application where we've brewed up a digital oasis for tea lovers worldwide. Explore our tea catalog, learn about tea varieties, and discover new flavors. Join WGT today and steep yourself in the world of tea with ease and sophistication.",
     type: "Solo Project",
     role: "Full Stack",
